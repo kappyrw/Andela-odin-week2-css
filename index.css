@@ -252,3 +252,100 @@ h2 {
 
 
   
+
+/* 
+//responsiveness */ 
+
+/* 
+good way to do it i add important this will give them
+ higher priority and override any conflicting styles. */
+
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  
+    .header ul {
+      margin-top: 10px !important;
+      padding: 0 !important;
+      text-align: center !important;
+    }
+  
+    .header li {
+      display: inline-block !important;
+      margin: 5px !important;
+    }
+  
+    .header li a {
+      display: block !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column !important;
+    }
+  
+    .nexthead {
+      flex-direction: column-reverse !important;
+    }
+  
+    .left,
+    .right {
+      text-align: center !important;
+    }
+  
+    .img1 {
+      width: 100% !important;
+      max-width: 300px !important;
+      height: auto !important;
+      margin-top: 20px !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .same-info {
+      text-align: center !important;
+    }
+  
+    .container1 {
+      display: grid !important;
+      grid-template-columns: repeat(1, 1fr) !important;
+      gap: 20px !important;
+      margin-bottom: 20px !important;
+    }
+  
+    .div {
+      text-align: center !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container2 {
+      text-align: center !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container3 {
+      text-align: center !important;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .fotter {
+      text-align: center !important;
+    }
+  }
+  
